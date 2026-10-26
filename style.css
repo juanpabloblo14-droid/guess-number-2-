@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f8;
+    text-align: center;
+    padding: 40px 16px;
+}
+
+h1 {
+    color: #333;
+}
+
+#guessInput {
+    font-size: 20px;
+    padding: 8px;
+    width: 80px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #4a6cf7;
+    color: white;
+    margin: 8px;
+}
+
+button:hover {
+    background: #3550c9;
+}
+
+#resetBtn {
+    background: #888;
+}
+
+#feedback {
+    font-size: 28px;
+    font-weight: bold;
+    min-height: 34px;
+}
+
+#guessCount {
+    color: #666;
+}
